@@ -6,13 +6,6 @@
 	<artifactId>dummy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<!-- scm>
-		<connection>scm:git:https://gitlab.com/fr_adami/java/poms/adami-parent.git</connection>
-		<developerConnection>scm:git:https://gitlab.com/fr_adami/java/poms/adami-parent.git</developerConnection>
-		<url>https://gitlab.com/fr_adami/java/poms/adami-parent</url>
-		<tag>HEAD</tag>
-	</scm -->
-
 	<properties>
 		<java.version>11</java.version>
 
