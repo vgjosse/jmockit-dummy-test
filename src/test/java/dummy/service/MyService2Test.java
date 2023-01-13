@@ -32,6 +32,7 @@ class MyService2Test {
 			{
 				List<MyDto2> actualMyDtos = new ArrayList<>();
 				myDaoMock.insertMyDto(withCapture(actualMyDtos));
+				times = nbInsert;
 
 				assertEquals(nbInsert, actualMyDtos.size());
 			}
